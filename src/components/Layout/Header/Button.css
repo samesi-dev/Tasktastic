@@ -33,13 +33,13 @@
 .btn--medium{
     padding: 8px 20px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 12px;
     color:#636E77;
 }
 
 .btn--large{
     padding: 12px 20px;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 18px;
     color:#636E77;
 }

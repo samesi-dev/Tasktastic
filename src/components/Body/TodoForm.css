@@ -1,0 +1,125 @@
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+div {
+    display: block;
+}
+.inner {
+    padding: 8rem 10px 4rem;
+    width: 100%;
+}
+
+.todo-input{
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 100%;
+    padding: 5px;
+    border-color: rgb(0 0 0 / 30%);
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.todo-form{
+    border-radius: 2px;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 38%);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: 30%;
+    margin: 50px -180px; 
+    position: absolute;
+    top:50%; 
+    left:50%;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.plus-icon{
+    border: none;
+    height: 45px;
+    outline: none;
+    padding:15px;
+    transition: all 0.5s ease-out;
+    background: #F6F6F7;
+    cursor: pointer;
+}
+.plus-icon:hover{
+    padding: 8px 20px;
+    transition: 0.5s ease-out;
+    background: #F6F6F7;
+    transition: 250ms;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 6em;
+    margin-block-end: 6em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.TodoItem_checkbox{
+    margin-right: 15px;
+}
+.TodoItem{
+    border-bottom: 1px solid #eaeaea;
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding: 17px 0;
+}
+
+.TodoItem button {
+    background: #f1f3f4;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+    height: 50px;
+    margin: -10px 0 0 10px;
+    outline: none;
+    width: 50px;
+}
+@media screen and (max-width: 1068px) {
+    .todo-form{
+        border-radius: 2px;
+        box-shadow: 0 1px 6px 0 rgb(0 0 0 / 38%);
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        width: 30%;
+        margin: 50px -60px; 
+        position: absolute;
+        top:50%; 
+        left:50%;
+        font-family: 'Roboto', sans-serif;
+    }
+}
