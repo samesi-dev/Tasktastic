@@ -19,8 +19,8 @@ const TodoForm = (props) => {
     });
     
     setInput('')
-
   };
+
 
     return (<div>
        <div className="container">
@@ -33,19 +33,12 @@ const TodoForm = (props) => {
           name="text"
           value={input}
           onChange={handleChange}
-      
          />
-          <button onClick={handleSubmit} class="plus-icon">
+          <button onClick={handleSubmit} className="plus-icon">
            <FiPlus />
           </button>
       </form>
-      <ul>
-        <li className="TodoItem">
-          <input type="checkbox" className="TodoItem_checkbox"/>
-          <button type="button">Delete</button>
-        </li>
   
-      </ul>   
           </div>
        </div>
     

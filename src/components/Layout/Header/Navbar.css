@@ -88,6 +88,7 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+        margin-top: 15px;
     }
 
     .menu-icon{
